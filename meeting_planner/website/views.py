@@ -17,4 +17,4 @@ def date(request):
 
 # Please add: An about page that shows some text about yourself
 def about(request):
-    return HttpResponse("I'm Reindert and I make courses for Pluralsight.")
+    return HttpResponse("I'm Peter and I am learning from course Getting Started - Django from Pluralsight.")

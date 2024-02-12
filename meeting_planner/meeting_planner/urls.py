@@ -18,10 +18,10 @@ from django.urls import path, include
 
 from website.views import welcome, date, about
 
-
+# path('', welcome, name="welcome")
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', welcome, name="welcome"),
+    path('', welcome),
     path('date', date),
     path('about', about),
     path('meetings/', include('meetings.urls')),
