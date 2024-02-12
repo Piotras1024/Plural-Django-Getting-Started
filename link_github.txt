@@ -1,1 +1,0 @@
-https://github.com/codesensei-courses/django_getting_started
