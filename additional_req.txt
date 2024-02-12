@@ -1,0 +1,5 @@
+pip install --upgrade setuptools
+python manage.py migrate
+
+
+ctrl+C aby zakończyć działanie servera django
